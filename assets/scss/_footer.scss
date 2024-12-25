@@ -1,0 +1,123 @@
+@import "valiable";
+
+.footer {
+  background: $primary-gradient;
+  color: $primary-color;
+  padding: $footer-padding-lg 0;
+
+  .container {
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: space-between;
+
+      .col-lg-4,
+      .col-md-6 {
+        padding: 0 15px;
+
+        .social-links {
+          margin-top: 1.5rem;
+
+          a {
+            margin-right: 1rem;
+            color: $light-color;
+            transition: all 0.3s ease, transform 0.3s ease;
+
+            i {
+              font-size: 1.6rem;
+            }
+
+            i:hover {
+              color: $highlight-hover-color;
+              transform: scale(1.1);
+            }
+          }
+
+          a:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+
+      h5 {
+        color: $primary-color;
+        font-weight: 600;
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+
+        &:hover {
+          color: $hover-color;
+        }
+      }
+
+      ul.list-unstyled {
+        li {
+          font-size: 1.6rem;
+          margin-bottom: 15px;
+          line-height: 1.8;
+          color: $light-color;
+          transition: color 0.3s ease;
+
+          &:hover {
+            color: $highlight-hover-color;
+          }
+
+          i {
+            color: $highlight-hover-color;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+
+    p {
+      color: $text-muted;
+      font-size: 1.4rem;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+  a.text-light {
+    color: $light-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $hover-color;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .footer {
+    padding: $footer-padding-md 0;
+
+    .container {
+      .row {
+        gap: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: $footer-padding-sm 0;
+
+    .container {
+      .row {
+        gap: 15px;
+      }
+    }
+  }
+}

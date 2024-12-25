@@ -43,9 +43,72 @@ function addNavbar() {
 /* ========== Thêm Footer ========== */
 function addFooter() {
   document.write(`
-    <footer class="footer text-center py-3">
+        <footer id="footer" class="footer">
         <div class="container">
-            <p class="text-muted">&copy; 2024 - My Portfolio</p>
+            <div class="row gy-4">
+                <!-- About Section -->
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="index.html" class="d-flex align-items-center mb-4">
+                        <img src="./img/logo.png" alt="Logo" height="40" width="150">
+                    </a>
+                    <p class="text-muted text-white">Hi, I'm Truong Ai Nga, a passionate front-end developer who loves
+                        crafting
+                        beautiful and functional web experiences. Always eager to learn and grow in the ever-evolving
+                        tech
+                        world.</p>
+                    <div class="social-links mt-3">
+                        <a href="https://www.facebook.com/profile.php?id=100055585185477" class="me-3 text-light" title="Facebook"><i
+                                class="fa-brands fa-facebook fa-lg"></i></a>
+                        <a href="https://github.com/AiNga04" class="me-3 text-light" title="GitHub"><i class="fa-brands fa-github fa-lg"></i></a>
+                        <a href="https://www.instagram.com/ainga_76/profilecard/?igsh=cDY2N2RkNncycjZt" class="me-3 text-light" title="Instagram"><i
+                                class="fa-brands fa-instagram fa-lg"></i></a>
+                        <a href="https://www.linkedin.com/in/nga-tr%C6%B0%C6%A1ng-bb62202ab/" class="text-light" title="LinkedIn"><i
+                                class="fa-brands fa-linkedin-in fa-lg"></i></a>
+                    </div>
+                </div>
+
+                <!-- Skills Section -->
+                <div class="col-lg-2 col-md-3 col-sm-6">
+                    <h5 class="mb-4 text-uppercase text-light">Skills</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fa-solid fa-code me-2"></i>HTML, CSS, JavaScript</li>
+                        <li><i class="fa-solid fa-laptop-code me-2"></i>React.js, Node.js</li>
+                        <li><i class="fa-solid fa-database me-2"></i>SQL, MongoDB</li>
+                        <li><i class="fa-solid fa-lock me-2"></i>Bootstrap</li>
+                    </ul>
+                </div>
+
+                <!-- Hobbies Section -->
+                <div class="col-lg-2 col-md-3 col-sm-6">
+                    <h5 class="mb-4 text-uppercase text-light">Hobbies</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fa-solid fa-book me-2"></i>Reading Technology Blogs</li>
+                        <li><i class="fa-solid fa-walking me-2"></i>Go for a walk after many hours of work on the
+                            computer
+                        </li>
+                        <li><i class="fa-solid fa-music me-2"></i>Listening to Music</li>
+                    </ul>
+                </div>
+
+                <!-- Contact Section -->
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h5 class="mb-4 text-uppercase text-light">Contact</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fa-solid fa-location-dot me-2"></i>Le Van Viet Street</li>
+                        <li><i class="fa-solid fa-city me-2"></i>Ho Chi Minh, Viet Nam</li>
+                        <li><i class="fa-solid fa-phone me-2"></i><strong>Phone:</strong> +84 376 600 545
+                        </li>
+                        <li><i class="fa-solid fa-envelope me-2"></i><strong>Email:</strong> ainga01012004@gmail.com<a
+                                href="mailto:ainga01012004@gmail.com" class="text-light text-decoration-none"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="text-center mt-4 text-white">
+                <hr>
+                <p class="mb-0">&copy; 2024 Ai Nga. All rights reserved.</p>
+            </div>
         </div>
     </footer>`);
 }

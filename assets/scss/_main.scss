@@ -3,7 +3,7 @@
 .main {
   // ===================Common===================
   p.desc {
-    color: #3f4c7c;
+    color: $secondary-color;
     font-size: 1.6rem;
     padding: 10px 0;
     line-height: 1.6;
@@ -12,7 +12,7 @@
   .fs {
     font-size: 5rem;
     font-weight: bold;
-    color: #3f4c7c;
+    color: $secondary-color;
   }
 
   .bd {
@@ -22,8 +22,8 @@
   .btn {
     display: inline-block;
     padding: 10px 20px;
-    background: #007bff;
-    color: #fff;
+    background: $primary-color;
+    color: $light-color;
     text-align: center;
     font-size: 1.6rem;
     font-weight: 400;
@@ -35,7 +35,7 @@
 
   .btn::after {
     content: "";
-    background-color: #215690;
+    background-color: $hover-color;
     position: absolute;
     top: 0;
     left: 0;
@@ -77,11 +77,11 @@
 
         span {
           font-weight: bold;
-          color: #3f4c7c;
+          color: $secondary-color;
         }
 
         .text-primary {
-          color: #4facfe;
+          color: $accent-color;
           animation: colorChange 5s infinite alternate-reverse;
         }
       }
@@ -99,11 +99,11 @@
 @keyframes colorChange {
   0% {
     filter: hue-rotate(0deg);
-    color: #4facfe;
+    color: $accent-color;
   }
   25% {
     filter: hue-rotate(90deg);
-    color: #00f2fe;
+    color: lighten($accent-color, 10%);
   }
   50% {
     filter: hue-rotate(180deg);
@@ -115,7 +115,7 @@
   }
   100% {
     filter: hue-rotate(360deg);
-    color: #4facfe;
+    color: $accent-color;
   }
 }
 
@@ -175,17 +175,17 @@
   transition: transform 0.3s ease;
   &:hover {
     transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px $shadow-color;
   }
-}
 
-.skill-hover .box-hidden i {
-  transition: transform 0.3s ease, color 0.3s ease;
-}
+  .box-hidden i {
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
 
-.skill-hover:hover .box-hidden i {
-  transform: translateY(-10px);
-  color: #007bff;
+  &:hover .box-hidden i {
+    transform: translateY(-10px);
+    color: $primary-color;
+  }
 }
 
 /*========== Education ==========*/
@@ -194,7 +194,7 @@
 
   &:hover {
     transform: translateY(-10px);
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 20px $hover-shadow-color;
   }
 }
 
@@ -202,6 +202,87 @@
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: darken(#007bff, 10%);
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+/*========== Contact ==========*/
+.img-custom {
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.text-truncate-single {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+/* Tạo khoảng cách và căn chỉnh cho các block mạng xã hội */
+.channel-block {
+  margin-bottom: 30px;
+  .inner-box {
+    background: $light-color;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px $shadow-color;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+
+    &:hover {
+      box-shadow: 0 6px 12px $hover-shadow-color;
+      transform: translateY(-5px);
+    }
+
+    .icon-box {
+      margin-bottom: 15px;
+      img {
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+        transition: transform 0.3s ease;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: $dark-color;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.6rem;
+      color: $text-muted-color;
+    }
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .channel-block {
+    margin-bottom: 20px;
+    .inner-box {
+      padding: 15px;
+    }
+
+    .icon-box img {
+      width: 50px;
+      height: 50px;
+    }
+
+    h3 {
+      font-size: 1rem;
+    }
+
+    p {
+      font-size: 0.85rem;
+    }
   }
 }

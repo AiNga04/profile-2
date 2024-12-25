@@ -1,1 +1,22 @@
+// Biến màu chung
+$primary-gradient: linear-gradient(135deg, #0ab245, #2575fc);
+$new-gradient: linear-gradient(135deg, #bde61b, #0dc89f);
+$primary-color: #007bff;
+$secondary-color: #3f4c7c;
+$accent-color: #4facfe;
+$hover-color: #215690;
+$text-muted: #aaa;
+$text-muted-color: #666;
+$light-color: #ffffff;
+$dark-color: #000000;
+$highlight-hover-color: #f39c12;
 
+$shadow-color: rgba(0, 0, 0, 0.1);
+$hover-shadow-color: rgba(0, 0, 0, 0.2);
+$shadow-color-2: rgba(0, 0, 0, 0.23);
+$box-shadow: 0 4px 8px $shadow-color;
+$hover-scale: 1.05;
+
+$footer-padding-lg: 60px;
+$footer-padding-md: 40px;
+$footer-padding-sm: 30px;
