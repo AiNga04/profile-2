@@ -2,10 +2,10 @@ function addSkills() {
   document.write(`
         <section class="skills" id="skills">
             <div class="container-xl px-4 py-5" id="featured-skills">
-                <h2 class="pb-2 text-primary h1 fs p-3">My Skills
+                <h2 class="pb-2 text-primary h1 fs p-3" data-aos="fade-right">My Skills
                     <hr class="text-body-secondary">
                 </h2>
-                <div class="row g-5 py-5 row-cols-1 row-cols-lg-3 row-cols-md-2 bd">
+                <div class="row g-5 py-5 row-cols-1 row-cols-lg-3 row-cols-md-2 bd" data-aos="zoom-in">
                     <!-- Front-End Skills -->
                     <div class="feature col text-center">
                         <div class="p-0 shadow rounded-3 py-5 skill-hover">

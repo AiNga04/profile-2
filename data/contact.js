@@ -4,14 +4,14 @@ function addContact() {
         <div class="container">
             <!-- Row top -->
             <div class="row text-center mb-4">
-                <h2 class="pb-2 text-primary h1 fs p-3">Kết nối với tôi qua mạng xã hội
+                <h2 class="pb-2 text-primary h1 fs p-3" data-aos="flip-left">Kết nối với tôi qua mạng xã hội
                     <hr class="text-body-secondary">
                 </h2>
             </div>
             <!-- Row top end -->
 
             <!-- Row contact -->
-            <div class="row text-center">
+            <div class="row text-center" data-aos="zoom-in">
                 <!-- Facebook -->
                 <div class="col-lg-3 col-md-6 col-sm-12 channel-block">
                     <div class="channel-block-one wow fadeInUp animated" data-wow-delay="00ms"

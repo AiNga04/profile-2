@@ -2,10 +2,10 @@ function addEducation() {
   document.write(`
         <section class="education py-5" id="education">
             <div class="container-xl px-4 py-5">
-                <h2 class="pb-2 text-primary h1 fs p-3 text-center">My Education
+                <h2 class="pb-2 text-primary h1 fs p-3 text-center" data-aos="flip-left">My Education
                     <hr class="text-body-secondary">
                 </h2>
-                <div class="education-timeline py-5">
+                <div class="education-timeline py-5" data-aos="zoom-in">
                     <!-- Education Item 1 -->
                     <div class="card shadow border-0 rounded-3 mb-4 p-5">
                         <div class="row no-gutters">

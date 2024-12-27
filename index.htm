@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Profile">
+    <meta name="keywords" content="Profile">
+    <meta name="author" content="Ái Nga">
     <title>Profile</title>
     <link rel="shortcut icon" href="./icon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
@@ -19,6 +22,7 @@
 
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/animation/aos.css">
 </head>
 
 <body>
@@ -82,7 +86,7 @@
             <div class="container-xl">
                 <div class="row gx-md-5">
                     <!-- Content -->
-                    <div class="col-md-7 d-flex align-items-center text-center text-md-start">
+                    <div class="col-md-7 d-flex align-items-center text-center text-md-start" data-aos="fade-right">
                         <div class="about-text">
                             <h2 class="text-primary h1 fs">About Me</h2>
                             <p class="desc">Hi, I'm Trương Ái Nga, a passionate web developer! I specialize in front-end
@@ -103,7 +107,7 @@
                     </div>
 
                     <!-- Avatar -->
-                    <div class="col-md-5">
+                    <div class="col-md-5" data-aos="fade-left">
                         <figure class="avatar mx-auto">
                             <img src="./img/avatar-3.jpg" alt="avatar">
                         </figure>
@@ -137,6 +141,11 @@
     <!-- Footer end -->
 
     <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/animation/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
