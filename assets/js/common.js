@@ -71,10 +71,10 @@ function addFooter() {
                 <div class="col-lg-2 col-md-3 col-sm-6">
                     <h5 class="mb-4 text-uppercase text-light">Skills</h5>
                     <ul class="list-unstyled">
-                        <li><i class="fa-solid fa-code me-2"></i>HTML, CSS, JavaScript</li>
-                        <li><i class="fa-solid fa-laptop-code me-2"></i>React.js, Node.js</li>
+                        <li><i class="fa-solid fa-code me-2"></i>HTML, CSS, JavaScript, Typescript, java</li>
+                        <li><i class="fa-solid fa-laptop-code me-2"></i>React.js, Next.js, Node.js, Nest.js</li>
                         <li><i class="fa-solid fa-database me-2"></i>SQL, MongoDB</li>
-                        <li><i class="fa-brands fa-bootstrap"></i></i>Bootstrap</li>
+                        <li><i class="fa-brands fa-bootstrap"></i></i>Bootstrap, MUI, Antd</li>
                     </ul>
                 </div>
 

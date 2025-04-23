@@ -13,15 +13,16 @@ function addSkills() {
                                 <i class="fas fa-laptop-code fa-5x text-primary"></i>
                             </div>
                             <h2 class="h2 text-primary mt-4">Front-End</h2>
-                            <p class="desc">Skilled in building responsive and dynamic user interfaces using the latest
-                                web
-                                technologies.</p>
+                            <p class="desc">Skilled in building responsive and dynamic user interfaces using modern web technologies.</p>
                             <ul class="list-unstyled text-secondary mt-3">
                                 <li><i class="fab fa-html5 text-danger"></i> HTML</li>
-                                <li><i class="fab fa-css3-alt text-primary"></i> CSS (SCSS)</li>
-                                <li><i class="fab fa-js-square text-warning"></i> JavaScript</li>
-                                <li><i class="fab fa-bootstrap text-purple"></i> Bootstrap</li>
+                                <li><i class="fab fa-sass text-pink"></i> CSS (SCSS)</li>
+                                <li><i class="fab fa-js text-warning"></i> JavaScript</li>
+                                <li><i class="fab fa-bootstrap text-purple"></i> Bootstrap 5</li>
                                 <li><i class="fab fa-react text-info"></i> React JS</li>
+                                <li><i class="fas fa-forward text-info"></i> Next.js</li>
+                                <li><i class="fab fa-android text-success"></i> Ant Design</li>
+                                <li><i class="fas fa-layer-group text-primary"></i> Material-UI</li>
                             </ul>
                         </div>
                     </div>
@@ -32,14 +33,16 @@ function addSkills() {
                                 <i class="fas fa-server fa-5x text-success"></i>
                             </div>
                             <h2 class="h2 text-primary mt-4">Back-End</h2>
-                            <p class="desc">Experienced in creating robust back-end systems with modern frameworks and
-                                databases.</p>
+                            <p class="desc">Experienced in developing robust server-side applications with modern frameworks.</p>
                             <ul class="list-unstyled text-secondary mt-3">
                                 <li><i class="fab fa-java text-danger"></i> Java</li>
-                                <li><i class="fas fa-code text-dark"></i> Spring Boot</li>
-                                <li><i class="fab fa-node-js text-success"></i> Node JS</li>
+                                <li><i class="fas fa-leaf text-success"></i> Spring Boot</li>
+                                <li><i class="fab fa-node text-success"></i> Node.js</li>
                                 <li><i class="fas fa-database text-info"></i> MySQL</li>
-                                <li><i class="fas fa-database text-warning"></i> MongoDB</li>
+                                <li><i class="fas fa-leaf text-success"></i> MongoDB</li>
+                                <li><i class="fas fa-exchange-alt text-primary"></i> RESTful APIs</li>
+                                <li><i class="fas fa-feather text-secondary"></i> Nest.js</li>
+                                <li><i class="fab fa-js-square text-primary"></i> TypeScript</li>
                             </ul>
                         </div>
                     </div>
@@ -49,17 +52,17 @@ function addSkills() {
                             <div class="pb-3 box-hidden">
                                 <i class="fas fa-tools fa-5x text-warning"></i>
                             </div>
-                            <h2 class="h2 text-primary mt-4">Khác</h2>
-                            <p class="desc">Proficient in tools and methodologies to enhance productivity and ensure
-                                project
-                                success.</p>
+                            <h2 class="h2 text-primary mt-4">Other Skills</h2>
+                            <p class="desc">Proficient in development tools and methodologies for efficient project delivery.</p>
                             <ul class="list-unstyled text-secondary mt-3">
-                                <li><i class="fab fa-git text-danger"></i> Git</li>
+                                <li><i class="fab fa-git-alt text-danger"></i> Git</li>
+                                <li><i class="fab fa-github text-dark"></i> GitHub</li>
                                 <li><i class="fab fa-docker text-info"></i> Docker</li>
-                                <li><i class="fas fa-cloud text-primary"></i> RESTful API</li>
-                                <li><i class="fas fa-shapes text-success"></i> Figma</li>
-
-                                <li><i class="fas fa-chart-line text-secondary"></i> Problem Solving</li>
+                                <li><i class="fab fa-figma text-purple"></i> Figma</li>
+                                <li><i class="fas fa-project-diagram text-success"></i> Agile/Scrum</li>
+                                <li><i class="fas fa-handshake text-info"></i> Communication</li>
+                                <li><i class="fas fa-users-cog text-warning"></i> Team Collaboration</li>
+                                <li><i class="fas fa-vial text-danger"></i> Testing/Debugging</li>
                             </ul>
                         </div>
                     </div>
