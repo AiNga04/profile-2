@@ -107,7 +107,7 @@ function addFooter() {
             <!-- Footer Bottom -->
             <div class="text-center mt-4 text-white">
                 <hr>
-                <p class="mb-0">&copy; 2024 Ai Nga. All rights reserved.</p>
+                <p class="mb-0">&copy; 2025 Ai Nga. All rights reserved.</p>
             </div>
         </div>
     </footer>`);
