@@ -55,6 +55,18 @@ function addProject() {
                             </a>
                         </div>
                     </div>
+                                        <div class="feature col text-center">
+                        <div class="p-0 shadow rounded-3 pb-5 project-hover">
+                            <div class="pb-3 box-hidden">
+                                <img src="./img/wanderlust.jpg" alt="wanderlust travel" class="">
+                            </div>
+                            <h2 class="h2 text-primary mt-4">Wanderlust - Travel & Explore 🌍</h2>
+                            <p class="desc">A modern travel website for discovering top destinations, booking trips, and reading user reviews. Built with a beautiful UI and convenient features.</p>
+                            <a href="https://github.com/AiNga04/tailwind" target="_blank" class="btn btn-primary">
+                                <span class="btn-transition">View on Github</span>
+                            </a>
+                        </div>
+                    </div>
                     <div class="feature col text-center">
                         <div class="p-0 shadow rounded-3 pb-5 project-hover">
                             <div class="pb-3 box-hidden">
