@@ -16,7 +16,7 @@ function addSkills() {
                             <p class="desc">Skilled in building responsive and dynamic user interfaces using modern web technologies.</p>
                             <ul class="list-unstyled text-secondary mt-3">
                                 <li><i class="fab fa-html5 text-danger"></i> HTML</li>
-                                <li><i class="fab fa-sass text-pink"></i> CSS (SCSS)</li>
+                                <li><i class="fab fa-sass text-pink"></i> CSS (SCSS), Tailwind CSS</li>
                                 <li><i class="fab fa-js text-warning"></i> JavaScript</li>
                                 <li><i class="fab fa-bootstrap text-purple"></i> Bootstrap 5</li>
                                 <li><i class="fab fa-react text-info"></i> React JS</li>

@@ -25,7 +25,7 @@ function addContact() {
                             <h2><a class="text-decoration-none h2 text-primary mt-4"
                                     href="https://www.facebook.com/profile.php?id=100055585185477"
                                     target="_blank">Facebook</a></h2>
-                            <p class="desc">Đừng bỏ lỡ cơ hội học hỏi và kết nối với tôi trên Facebook!</p>
+                            <p class="desc">Don't miss the opportunity to learn and connect with me on Facebook!</p>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ function addContact() {
                             <h2><a class="text-decoration-none h2 text-primary mt-4" href="https://github.com/AiNga04"
                                     target="_blank">Github</a>
                             </h2>
-                            <p class="desc">Khám phá các dự án mã nguồn mở và kết nối với tôi qua GitHub!</p>
+                            <p class="desc">Explore open source projects and connect with me on GitHub!</p>
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ function addContact() {
                             <h2><a class="text-decoration-none h2 text-primary mt-4"
                                     href="https://www.instagram.com/ainga_76/profilecard/?igsh=cDY2N2RkNncycjZt"
                                     target="_blank">Instagram</a></h2>
-                            <p class="desc">Theo dõi những cập nhật mới nhất và kết nối qua Instagram!</p>
+                            <p class="desc">Follow the latest updates and connect via Instagram!</p>
                         </div>
                     </div>
                 </div>
@@ -81,7 +81,7 @@ function addContact() {
                                     href="https://www.linkedin.com/in/nga-tr%C6%B0%C6%A1ng-bb62202ab/"
                                     target="_blank">Linked
                                     in</a></h2>
-                            <p class="desc">Đừng bỏ lỡ cơ hội học hỏi và kết nối với tôi qua LinkedIn!</p>
+                            <p class="desc">Don't miss the opportunity to learn and connect with me on LinkedIn!</p>
                         </div>
                     </div>
                 </div>

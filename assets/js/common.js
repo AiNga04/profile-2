@@ -74,7 +74,7 @@ function addFooter() {
                         <li><i class="fa-solid fa-code me-2"></i>HTML, CSS, JavaScript, Typescript, java</li>
                         <li><i class="fa-solid fa-laptop-code me-2"></i>React.js, Next.js, Node.js, Nest.js</li>
                         <li><i class="fa-solid fa-database me-2"></i>SQL, MongoDB</li>
-                        <li><i class="fa-brands fa-bootstrap"></i></i>Bootstrap, MUI, Antd</li>
+                        <li><i class="fa-brands fa-bootstrap"></i></i>Bootstrap, MUI, Antd, Tailwind CSS</li>
                     </ul>
                 </div>
 
